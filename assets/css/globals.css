@@ -15,7 +15,17 @@ html {
 }
 
 main {
-background: #f7f4f9;
+  background: #f7f4f9;
+}
+
+
+/*sizes*/
+.mw-900 {
+  max-width: 900px;
+}
+
+.mw-800 {
+  max-width: 800px;
 }
 
 /*background colors*/
@@ -27,6 +37,10 @@ background: #f7f4f9;
   background-color: #ffffff;
 }
 
+.bg-purple-gradient {
+  background: linear-gradient(135deg, #6D28D9, #8B5CF6);
+}
+
 /*font colors*/
 .font-purple {
   color: #8B5CF6;
@@ -34,6 +48,10 @@ background: #f7f4f9;
 
 .font-white {
   color: #ffffff;
+}
+
+.font-yellow {
+  color: #FFA500;
 }
 
 .nav-link {
@@ -62,4 +80,8 @@ a:hover {
 
 span {
   color: #8B5CF6;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
 }
