@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+/*home*/
+.home-text {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.home-text span {
+  color: #FFA500;
+  font-family: 'Montserrat';
+}
+/*responsividade-texto-home*/
+@media (max-width: 1200px) {
+  .home-text {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 388px) {
+  .home-text {
+    font-size: 18px;
+  }
+}
